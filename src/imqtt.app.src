@@ -1,0 +1,19 @@
+%%%-------------------------------------------------------------------
+%%% @author chenshb@mpreader
+%%% @copyright (C) 2015, <MPR Reader>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 29. 七月 2015 19:00
+%%%-------------------------------------------------------------------
+{application, imqtt, [
+    {description, ""},
+    {vsn, "1"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {mod, {imqtt, []}},
+    {env, []}
+]}.
