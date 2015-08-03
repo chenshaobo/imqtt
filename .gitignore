@@ -1,0 +1,8 @@
+deps/*
+rel/*
+ebin/*
+*.iml
+.rebar
+start.sh
+make.sh
+.idea/*
