@@ -15,5 +15,5 @@
         stdlib
     ]},
     {mod, {imqtt, []}},
-    {env, []}
+    {env, [{db_mod,imqtt_db_mnesia}]}
 ]}.

@@ -38,6 +38,7 @@
 start(_StartType, _StartArgs) ->
     case imqtt_sup:start_link() of
         {ok, Pid} ->
+            imqtt_db:init_db(),
             ranch:start_listener(imqtt,20,ranch_tcp,[{port,8888},{active,once}],imqtt_protocol,[]),
             {ok, Pid};
         Error ->
