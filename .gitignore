@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 deps/*
 rel/*
 ebin/*
@@ -6,3 +7,15 @@ ebin/*
 start.sh
 make.sh
 .idea/*
+=======
+.eunit
+deps
+*.o
+*.beam
+*.plt
+erl_crash.dump
+ebin
+rel/example_project
+.concrete/DEV_MODE
+.rebar
+>>>>>>> 3626cff0b34e2b8153347b6f49514e3dfc42342b
